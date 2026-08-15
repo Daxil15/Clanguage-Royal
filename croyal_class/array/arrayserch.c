@@ -2,7 +2,7 @@
 
 void main()
 {
-    int i, searchelm, n, index=-1, found=0;
+    int i, searchelm, n, found=0;
 
     printf("Enter the length of array: ");
     scanf("%d",&n);
