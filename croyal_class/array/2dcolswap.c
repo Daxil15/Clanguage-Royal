@@ -8,14 +8,14 @@ void main()
     {
         for(j=0;j<3;j++)
         {
-            if(i==0)
+            if(j==0)
             {
                 temp = a[i][j];
-                a[i][j] = a[2][j];
-                a[2][j] = temp;
+                a[i][j] = a[i][2];
+                a[i][2] = temp;
             }
         }
-    }
+    }//swap loop end
 
     for(i=0;i<3;i++)
     {
@@ -24,5 +24,5 @@ void main()
             printf("%d ",a[i][j]);
         }
         printf("\n");
-    }
+    }// print loop end
 }// main end
