@@ -23,7 +23,7 @@ void main()
         printf("\n");
     }
 
-    printf("-----------\n");
+    printf("---------\n");
 
     for(i=0;i<3;i++)
     {
