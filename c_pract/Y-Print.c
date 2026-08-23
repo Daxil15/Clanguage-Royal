@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 void main() {
-    int n = 21;   
+    int n = 11;   
     int i, j, mid;
 
     mid = (n + 1) / 2;
@@ -35,6 +35,6 @@ void main() {
             }// main else end
         }// inner loop end
         printf("\n"); 
-    }// outter loop end
+    }// outer loop end
 
 }
