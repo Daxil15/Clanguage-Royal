@@ -19,7 +19,7 @@ void main()
     {
         for(j=1;j<=9;j++)
         {
-            (j <= i && i + j <= 10) || (j >= i && i + j >= 10)?printf("*"):printf(" ");
+            (j <= i && i + j <= 10) || (j >= i && i + j >= 10) ?printf("*"):printf(" ");
             //i==j || i+j==10 || j == 1 || j == 9 ?printf("*"):printf(" ");
         }
         printf("\n");
