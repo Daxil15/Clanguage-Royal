@@ -25,10 +25,10 @@ void main()
             for(g=0;g<2;g++)
             {
                 printf("%d ",a[i][k][g]);
-            }//scan loop end for g
+            }//print loop end for g
             printf("\n");
-        }//scan loop end for k
+        }//print loop end for k
         printf("\n");
-    }//scan loop end for i
+    }//print loop end for i
 
 }//main end
