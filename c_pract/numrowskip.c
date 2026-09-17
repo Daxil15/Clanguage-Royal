@@ -8,15 +8,10 @@ void main()
     {
         for(j=0;j<3;j++)
         {
-            if(i== j || i+j == 2)
+            if(i == 0 || i == 2)
             {
-                printf("o ");
+                printf("%d ",a[i][j]);
             }
-            else
-            {
-                printf("  ");
-            }
-        }
         printf("\n");
     }
 

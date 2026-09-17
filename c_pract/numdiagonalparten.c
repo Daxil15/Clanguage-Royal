@@ -10,7 +10,7 @@ void main()
         {
             if(i== j || i+j == 2)
             {
-                printf("o ");
+                printf("%d ",a[i][j]);
             }
             else
             {
