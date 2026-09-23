@@ -1,4 +1,4 @@
-1- strcmp
+1- strcmp -> both are same -> returns 0 
 2- strcpy
 3- strlen
 4- strlwr
