@@ -15,6 +15,6 @@ void spaceCount(char a[])
 
 void main()
 {
-    char ch[10] = "D A X I L";
+    char ch[10] = "C H A K R A N I";
     spaceCount(ch);
 }// main end
