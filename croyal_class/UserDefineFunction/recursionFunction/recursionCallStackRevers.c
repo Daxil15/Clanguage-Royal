@@ -6,6 +6,11 @@ void count(int n)
     {
         return;
     }
+    printf("\nn: %d", n);
     count(n-1);
-    
+    printf("\nn: %d", n);
+}
+void main()
+{
+    count(10);
 }
