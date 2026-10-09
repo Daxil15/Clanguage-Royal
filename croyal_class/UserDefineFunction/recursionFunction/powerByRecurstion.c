@@ -14,5 +14,5 @@ void main()
 {
     int ans;
     ans = power(3,3);
-    printf("ans: %d", ans);
+    printf("\nans: %d", ans);
 }// main end
