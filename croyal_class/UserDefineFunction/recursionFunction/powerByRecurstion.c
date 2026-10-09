@@ -6,7 +6,7 @@ int power(int b, int exp)
     {
         return 1;
     }
-    printf("\n%d", exp-1);
+
     return b*power(b, exp-1);   
 }// power end
 
