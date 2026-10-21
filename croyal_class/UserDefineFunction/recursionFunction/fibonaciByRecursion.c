@@ -10,7 +10,7 @@ int fibonacci(int n){
         return 1; //1
     }
             
-    int a = fibonacci(n-1);   //fibo(n-1) fibo(1-1)=0
+    int a = fibonacci(n-1);   //fibo(3) -> fibo(2) + fibo(1) = 1 | fibo(1) + fibo(0) = 1+0+1 = 2
     int b = fibonacci(n-2);   //fibo(3-2) //1
 
     printf("\na\tb");
