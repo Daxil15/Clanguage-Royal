@@ -75,11 +75,14 @@ void searchEmployee()
             printf("Salary : %0.2f\n", e[i].salary);
             break;
         }
+        else{
+            printf("\nData not found\n");
+        }
     }
-    if (i == SIZE)
-    {
-        printf("Data not found");
-    }
+    // if (i == SIZE)
+    // {
+    //     printf("Data not found");
+    // }
 }
 
 void deleteEmployee()
