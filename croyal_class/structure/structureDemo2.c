@@ -16,7 +16,7 @@ void getDate()
     for(int i=0; i<3; i++)
     {
         printf("\nEnter the marks: ");
-        scanf("%f", &s.marks);
+        scanf("%f", &s.marks[i]);
     }
 }
 
